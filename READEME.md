@@ -38,9 +38,9 @@ Let we have local file and we want to push it on github . These are following co
 
 2. git add .
 
-3 git commit -m "message"
+3. git commit -m "message"
 
-4.  git remote add origin <--link-->
+4. git remote add origin <--link-->
 
 5. git branch -M main (pusing on main branch)
 
