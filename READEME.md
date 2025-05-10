@@ -99,5 +99,15 @@ git reset <---file name---> : it reset specific file
 git reset : reset all changes
 
 
+case 2 : commited changes (1 commit)
+
+git reset HEAD~1
+
+case 3 : commited changes (for many commit)
+
+git reset <-commit hash->
+git reset --hard<-commit hash->
+
+
 
 
