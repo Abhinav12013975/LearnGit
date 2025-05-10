@@ -91,3 +91,13 @@ branches changing on same location.
 
 
 
+--------------undoing changes----------------
+
+case 1 : change ***added but not commited
+
+git reset <---file name---> : it reset specific file
+git reset : reset all changes
+
+
+
+
