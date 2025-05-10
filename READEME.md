@@ -58,4 +58,35 @@ git branch -d <---branch name---> : It is used to delete branch.
 
 ***Note : if we currently on same branch which we want to delete. First checkout from this branch then we can delete it. 
 
+*** for pushing on some other branch command
+
+git push origin <---branch name---> : branch name is name of branch on which we want to push
+
+
+---------- Merging code ------------
+
+Way 1
+
+git diff <---branch name---> : comapare commit, branches file and more
+
+git merge <---branch name---> : to merge 2 branches
+
+way 2
+
+create a PR (pull request) : it lets you tell others changes you have pushed to a branch on github repository..
+
+above command make changes only on github... it does not show changes in local repo. when we will merge two branch
+
+to see the change . we will use command
+
+*** git pull origin <---branch name---> : we have to mention branch name on which we are merging. 
+example -- we have a branch (feature1) and we want to merge with (main) branch then command will be
+
+**** git pull origin main : this command add changes to main . after making pull request on github
+
+--------------merge conflict---------------
+
+merge conflict : this conflict occure when git unable to find the changes in file.
+
+
 
