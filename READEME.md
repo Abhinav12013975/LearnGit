@@ -106,6 +106,7 @@ git reset HEAD~1
 case 3 : commited changes (for many commit)
 
 git reset <-commit hash->
+
 git reset --hard<-commit hash->
 
 
