@@ -18,11 +18,16 @@ Type of git status
 **** important
 After making changes tracked or untracked before pusing it to the github we need save changes
 
-git add . --> It add all tracked or untracked  changes for staging
+git add . --> It add all tracked or untracked  file for staging
 
 git commit -m "message" --> It take screenshot of changes made during add. It reflect no more changes
 
+After add and commit...
 
+We use push command to push our code ....
+push command --> push command is used to push local repo content to remote repo
+
+git push origin main
 
 
 
