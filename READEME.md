@@ -1,6 +1,7 @@
 Git Command
+----------- Github to Local system-----------
 
-1--> clone repository
+1--> clone repository (Here we cloning repo from Github)
 
 git clone https://github.com/Abhinav12013975/LearnGit.git
 where (https://github.com/Abhinav12013975/LearnGit.git) is https of github
@@ -28,6 +29,22 @@ We use push command to push our code ....
 push command --> push command is used to push local repo content to remote repo
 
 git push origin main
+
+
+--------------- Local system to Git hub-----------------
+Let we have local file and we want to push it on github . These are following command
+
+1. git init --> It create new git repo
+
+2. git add .
+
+3 git commit -m "message"
+
+4.  git remote add origin <--link-->
+
+5. git branch -M main (pusing on main branch)
+
+6. git push -u origin main 
 
 
 
