@@ -40,11 +40,22 @@ Let we have local file and we want to push it on github . These are following co
 
 3. git commit -m "message"
 
-4. git remote add origin <--link-->
+4. git remote add origin <---https---link>
 
 5. git branch -M main (pusing on main branch)
 
 6. git push -u origin main 
 
+
+------------ Git Branches ------------
+git branch command --> git branch command show on which branch currently we are
+
+git checkout <---branch name---> : It helps to navigate from current branch to <---branch name--->. we will provide.
+
+git checkout -b <---new branch name---> : It is used to create new branch
+
+git branch -d <---branch name---> : It is used to delete branch.
+
+***Note : if we currently on same branch which we want to delete. First checkout from this branch then we can delete it. 
 
 
